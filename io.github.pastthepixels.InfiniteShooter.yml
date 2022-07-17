@@ -25,8 +25,8 @@ modules:
     sources:
       # The game is pulled from GitHub
       - type: file
-        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.0/InfiniteShooter.pck # <-- Edit with latest verion
-        sha256: 752c42a1fc4b7141cf31263a47ee0e74e04e5a579bbbc2d2926757fb38ea0114                           # <--
+        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.1/InfiniteShooter.pck # <-- Edit with latest verion
+        sha256: c398b2605d2a5582ffd2241d8eb6f0b95fef3d94e3ba912e52278c7b722e310d                           # <--
       # The .desktop/.png/.appdata.xml are all local files
       - type: file
         path: io.github.pastthepixels.InfiniteShooter.desktop
