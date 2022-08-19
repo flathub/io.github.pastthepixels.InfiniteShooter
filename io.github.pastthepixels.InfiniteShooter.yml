@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: 21.08
 sdk: org.freedesktop.Sdk
 base: org.godotengine.godot.BaseApp
-base-version: 3.4
+base-version: 3.5
 command: godot-runner
 finish-args:
   - --share=ipc
@@ -20,13 +20,13 @@ modules:
       # Metadata and a .desktop file
       - install -D io.github.pastthepixels.InfiniteShooter.desktop /app/share/applications/io.github.pastthepixels.InfiniteShooter.desktop
       - install -D io.github.pastthepixels.InfiniteShooter.appdata.xml /app/share/metainfo/io.github.pastthepixels.InfiniteShooter.appdata.xml
-      # An icon for the game
+      # An icon for the game (256x256 only)
       - install -D io.github.pastthepixels.InfiniteShooter.png /app/share/icons/hicolor/256x256/apps/io.github.pastthepixels.InfiniteShooter.png
     sources:
       # The game is pulled from GitHub
       - type: file
-        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.1/InfiniteShooter.pck # <-- Edit with latest verion
-        sha256: c398b2605d2a5582ffd2241d8eb6f0b95fef3d94e3ba912e52278c7b722e310d                           # <--
+        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.2/InfiniteShooter.pck # <-- Edit with latest verion
+        sha256: dced2d5dc8a1e93220ff91c6a4afe3f17cb67fc9598ccdac565a43c21d631406                           # <--
       # The .desktop/.png/.appdata.xml are all local files
       - type: file
         path: io.github.pastthepixels.InfiniteShooter.desktop
