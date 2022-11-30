@@ -11,7 +11,6 @@ finish-args:
   - --socket=pulseaudio
   - --device=all # <-- This flag enables controller support
 modules:
-  # InfiniteShooter (the game)
   - name: InfiniteShooter
     buildsystem: simple
     build-commands:
@@ -28,12 +27,12 @@ modules:
     sources:
       # The game is pulled from GitHub
       - type: file
-        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.2/InfiniteShooter.pck # <-- Edit with latest verion
-        sha256: dced2d5dc8a1e93220ff91c6a4afe3f17cb67fc9598ccdac565a43c21d631406                           # <--
+        url: https://github.com/pastthepixels/InfiniteShooter/releases/download/v0.4.3/InfiniteShooter.pck # <-- Edit with latest verion
+        sha256: 6a55d7c6305d30a4d9e2747e715ae4129bc7d38378b5c4c26ec80e51e15e9c04                           # <--
       # The .desktop/.png/.appdata.xml are all local files
       - type: file
         path: io.github.pastthepixels.InfiniteShooter.desktop
-      - type: file
-        path: io.github.pastthepixels.InfiniteShooter.png
+      - type: dir
+        path: icons/
       - type: file
         path: io.github.pastthepixels.InfiniteShooter.appdata.xml
