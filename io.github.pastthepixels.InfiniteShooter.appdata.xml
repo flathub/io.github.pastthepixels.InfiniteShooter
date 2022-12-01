@@ -7,9 +7,24 @@
     <url type="homepage">https://github.com/pastthepixels/InfiniteShooter</url>
     <project_license>GPL-3.0-only</project_license>
     <metadata_license>CC0-1.0</metadata_license>
-    <summary>A free-and-open-source vertical shooter.</summary>
+    <summary>A simplistic shooter made with the Godot engine.</summary>
     <description>
-        <p>InfiniteShooter is a simple shooter game made in the Godot game engine.</p>
+        <p>
+          InfiniteShooter is a simplistic shooter game made with Godot. There's only one goal: survive for as long as possible.
+        </p>
+        <p>
+          The controls are easy to understand too. All you need to know is how to move your ship and fire a laser.
+          Using these controls, you can experience InfiniteShooter's simple yet addicting gameplay--which might have you playing for longer than you should!
+        </p>
+        <p>
+          As the game progresses, more enemy types will be introduced and game mechanics may even change.
+          However, when you die, your score is logged and all progress is reset!
+        </p>
+        <p>
+          Lastly, this game is fully free-and-open-source, in both meanings of free!
+          Not only are all the assets public domain with CC-0 licenses, but the game itself is licensed under the GNU GPL v3, meaning you're free to modify and help improve the source code of the game.
+          There's no in-app purchases and no cheap tricks. When you get the game, you get the whole game, for free. 
+        </p>
     </description>
     <screenshots>
         <screenshot type="default">https://user-images.githubusercontent.com/52388215/177012474-99e630c2-848d-475d-9029-bf6e833774f7.png</screenshot>
@@ -21,6 +36,9 @@
     </screenshots>
     <content_rating type="oars-1.1" />
     <releases>
+        <release version="0.4.3" date="2022-11-25">
+          <url>https://github.com/pastthepixels/InfiniteShooter/releases/tag/v0.4.3</url>
+        </release>
         <release version="0.4.2" date="2022-08-16">
           <description>
             Another point release with some bug fixes and polish.
